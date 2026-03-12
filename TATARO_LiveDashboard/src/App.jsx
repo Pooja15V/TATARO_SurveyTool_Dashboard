@@ -6,18 +6,17 @@ import {
 } from "recharts";
 
 // ─── PALETTE (print-friendly light) ─────────────────────────────────────────
-const OT  = "#0369A1";
-const PT  = "#B45309";
-const PGY = "#065F46";
-const PGN = "#9F1239";
-const BG    = "#F8FAFC";
+const OT  = "#06B6D4";      // Cyan (primary from presentation)
+const PT  = "#0891B2";      // Teal (secondary)
+const PGY = "#0E7490";      // Dark teal
+const PGN = "#0369A1";      // Blue (accent)
+const BG    = "#F0FDFF";    // Light cyan background (from presentation)
 const CARD  = "#FFFFFF";
-const BORD  = "#CBD5E1";
-const TXT   = "#0F172A";
-const MUTED = "#64748B";
-const GRID  = "#E2E8F0";
-const SIG   = "#DC2626";   // red asterisk for p<0.05
-
+const BORD  = "#CFFAFE";    // Light cyan border
+const TXT   = "#0E7490";    // Dark teal text
+const MUTED = "#06B6D4";    // Cyan for secondary text
+const GRID  = "#E0F2FE";    // Very light blue
+const SIG   = "#0369A1";    // Blue asterisk for p<0.05
 // ─── DATA (n=40: OT=25, PT=15) ───────────────────────────────────────────────
 // Statistically significant differences marked with sig:true (p<0.05, Mann-Whitney / Fisher)
 
